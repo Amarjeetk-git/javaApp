@@ -6,6 +6,8 @@
 <a href=About.jsp> About Page</a>
 
 <br>
-<p>Hello Bhai</p>
+<p>Hello Bhai</p> 
+
+<a href=service.jsp> Service Page</a>
 </body>
 </html>
