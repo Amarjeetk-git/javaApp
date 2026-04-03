@@ -33,6 +33,13 @@
       padding: 20px 0;
       text-align: center;
     }
+    .fade-in {
+      opacity: 0;
+      transition: opacity 1s ease-in;
+    }
+    .fade-in.show {
+      opacity: 1;
+    }
   </style>
 </head>
 <body>
@@ -50,6 +57,7 @@
       <ul class="navbar-nav ms-auto">
         <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
         <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
         <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
       </ul>
     </div>
@@ -105,6 +113,24 @@
   </div>
 </section>
 
+<!-- Gallery -->
+<section id="gallery" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-4">Our Work in Action</h2>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <img id="img1" src="" class="img-fluid rounded shadow fade-in" alt="Recycling bins">
+      </div>
+      <div class="col-md-4">
+        <img id="img2" src="" class="img-fluid rounded shadow fade-in" alt="Garbage truck">
+      </div>
+      <div class="col-md-4">
+        <img id="img3" src="" class="img-fluid rounded shadow fade-in" alt="Composting facility">
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- Contact -->
 <section id="contact" class="py-5">
   <div class="container">
@@ -133,5 +159,27 @@
 
 <!-- Bootstrap JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Dynamic Image Loader -->
+<script>
+  setTimeout(() => {
+    const img1 = document.getElementById('img1');
+    img1.src = "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80";
+    img1.classList.add('show');
+  }, 1000);
+
+  setTimeout(() => {
+    const img2 = document.getElementById('img2');
+    img2.src = "https://images.unsplash.com/photo-1581090700227-4c4f5c3f3f3f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80";
+    img2.classList.add('show');
+  }, 2000);
+
+  setTimeout(() => {
+    const img3 = document.getElementById('img3');
+    img3.src = "https://images.unsplash.com/photo-1621905251918-3c9a3f5d6a3b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80";
+    img3.classList.add('show');
+  }, 3000);
+</script>
+
 </body>
 </html>
