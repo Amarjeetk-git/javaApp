@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>EcoWaste Solutions Tech</title>
+  <title>EcoWaste Solutions</title>
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <style>
@@ -11,11 +11,11 @@
       font-family: 'Segoe UI', sans-serif;
     }
     .hero {
-      background: url('https://images.unsplash.com/photo-1581090700227-4c4f5c3f3f3f') no-repeat center center;
-      background-size: cover;
-      color: white;
-      text-align: center;
-      padding: 100px 20px;
+       background: url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80') no-repeat center center;
+       background-size: cover;
+       color: white;
+       text-align: center;
+       padding: 100px 20px;
     }
     .hero h1 {
       font-size: 3rem;
@@ -40,7 +40,7 @@
 <!-- Navbar -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-success">
   <div class="container">
-    <a class="navbar-brand" href="#">AI based EcoWaste Solutions</a>
+    <a class="navbar-brand" href="#">AI Based EcoWaste Solutions</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
       data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" 
       aria-label="Toggle navigation">
