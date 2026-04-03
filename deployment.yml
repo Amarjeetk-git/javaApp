@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: mavenwebapp-container
-        image: mavenwebapp:latest   # <-- your image
+        image: amar684/javaprogram:latest   # <-- updated to Docker Hub repo
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
