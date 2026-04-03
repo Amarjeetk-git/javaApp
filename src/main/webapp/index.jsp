@@ -162,21 +162,22 @@
 
 <!-- Dynamic Image Loader -->
 <script>
+  // Load images dynamically with fade-in
   setTimeout(() => {
     const img1 = document.getElementById('img1');
-    img1.src = "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80";
+    img1.src = "https://cdn.pixabay.com/photo/2017/03/02/20/14/recycling-2119043_1280.jpg"; // Recycling bins
     img1.classList.add('show');
   }, 1000);
 
   setTimeout(() => {
     const img2 = document.getElementById('img2');
-    img2.src = "https://images.unsplash.com/photo-1581090700227-4c4f5c3f3f3f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80";
+    img2.src = "https://cdn.pixabay.com/photo/2016/11/29/04/17/garbage-truck-1869740_1280.jpg"; // Garbage truck
     img2.classList.add('show');
   }, 2000);
 
   setTimeout(() => {
     const img3 = document.getElementById('img3');
-    img3.src = "https://images.unsplash.com/photo-1621905251918-3c9a3f5d6a3b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80";
+    img3.src = "https://cdn.pixabay.com/photo/2019/09/04/08/55/compost-4452362_1280.jpg"; // Composting facility
     img3.classList.add('show');
   }, 3000);
 </script>
