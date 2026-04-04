@@ -47,40 +47,24 @@
       color: #c8e6c9;
     }
 
-    /* Hero Section */
-    .hero {
-      background: url('https://copilot.microsoft.com/th/id/BCO.5d8e2281-8ed1-4643-809c-77ed2ef1dcdd.png') no-repeat center center/cover;
-      height: 450px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      color: #fff;
+    /* Intro Section */
+    .intro {
       text-align: center;
+      padding: 60px 20px;
+      background-color: #e8f5e9;
     }
 
-    .hero h2 {
-      font-size: 3em;
-      margin: 0;
+    .intro h2 {
+      color: #2e7d32;
+      font-size: 2.5em;
+      margin-bottom: 10px;
     }
 
-    .hero p {
-      font-size: 1.3em;
-      margin: 15px 0;
-    }
-
-    .hero a {
-      background-color: #66bb6a;
-      color: #fff;
-      padding: 12px 25px;
-      text-decoration: none;
-      border-radius: 5px;
-      font-weight: bold;
-      transition: background-color 0.3s;
-    }
-
-    .hero a:hover {
-      background-color: #43a047;
+    .intro p {
+      font-size: 1.2em;
+      max-width: 800px;
+      margin: auto;
+      color: #555;
     }
 
     /* Services Section */
@@ -141,12 +125,14 @@
     </ul>
   </nav>
 
-  <!-- Hero Section -->
-  <div class="hero">
+  <!-- Intro Section -->
+  <section class="intro">
     <h2>Turning Waste into Opportunity</h2>
-    <p>Building a cleaner, greener future through sustainable waste management.</p>
-    <a href="#">Learn More</a>
-  </div>
+    <p>
+      At GreenWaste Solutions, we’re committed to building a cleaner, greener future through sustainable waste management. 
+      We help communities and businesses reduce their environmental footprint by transforming waste into valuable resources.
+    </p>
+  </section>
 
   <!-- Services Section -->
   <section class="services">
