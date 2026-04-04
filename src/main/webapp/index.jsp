@@ -118,10 +118,10 @@
   <nav>
     <h1>GreenWaste Solutions</h1>
     <ul>
-      <li><a href="#">Home</a></li>
+      <li><a href="index.jsp">Home</a></li>
       <li><a href="About.jsp">About Us</a></li>
       <li><a href="#">Services</a></li>
-      <li><a href="#">Contact</a></li>
+      <li><a href="contact.jsp">Contact</a></li>
     </ul>
   </nav>
 
