@@ -84,7 +84,7 @@
     <h2>What We Do</h2>
     <p>
       We provide comprehensive waste management services including residential collection, 
-      commercial solutions, recycling programs, hazardous waste handling (Like Muth), and community awareness initiatives.
+      commercial solutions, recycling programs, hazardous waste handling (Like Muth, Pusy etc), and community awareness initiatives.
     </p>
 
     <h2>Our Values</h2>
