@@ -1,7 +1,7 @@
 # Use Tomcat 9 as base image
 #FROM tomcat:9.0.87
 
-FROM tomcat:10.1.30
+FROM tomcat:10.1.54
 
 # Maintainer info (optional)
 LABEL maintainer="Amarjeet <your-email@example.com>"
