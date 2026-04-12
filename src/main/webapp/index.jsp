@@ -117,7 +117,7 @@
  <!-- Why Choose Us Section -->
 <section class="container my-5">
   <h3 class="text-center text-success mb-4">Why Choose Us</h3>
-  <div class="row text-center">
+  <div class="row justify-content-center text-center">
     <div class="col-md-4">
       <i class="bi bi-people text-success" style="font-size: 3rem;"></i>
       <h5 class="mt-3">Community Focused</h5>
