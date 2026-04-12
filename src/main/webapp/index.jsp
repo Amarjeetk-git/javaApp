@@ -6,6 +6,7 @@
   <title>GreenWaste Solutions - Home</title>
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
   <style>
     body {
       font-family: 'Segoe UI', Arial, sans-serif;
@@ -106,48 +107,52 @@
     </div>
   </section>
 
-  <!-- Why Choose Us Section -->
-  <section class="container my-5">
-    <h3 class="text-center text-success mb-4">Why Choose Us</h3>
-    <div class="row text-center">
-      <div class="col-md-4">
-        <i class="bi bi-leaf text-success" style="font-size: 2rem;"></i>
-        <h5 class="mt-2">Eco-Friendly</h5>
-        <p>We prioritize sustainable practices to protect the environment.</p>
-      </div>
-      <div class="col-md-4">
-        <i class="bi bi-people text-success" style="font-size: 2rem;"></i>
-        <h5 class="mt-2">Community Focused</h5>
-        <p>Our solutions are designed to benefit both businesses and households.</p>
-      </div>
-      <div class="col-md-4">
-        <i class="bi bi-shield-check text-success" style="font-size: 2rem;"></i>
-        <h5 class="mt-2">Safe & Compliant</h5>
-        <p>We follow strict safety and compliance standards for waste handling.</p>
-      </div>
+ <!-- Why Choose Us Section -->
+<section class="container my-5">
+  <h3 class="text-center text-success mb-4">Why Choose Us</h3>
+  <div class="row text-center">
+    <div class="col-md-4">
+      <i class="bi bi-leaf text-success" style="font-size: 3rem;"></i>
+      <h5 class="mt-3">Eco-Friendly</h5>
+      <p>We prioritize sustainable practices to protect the environment.</p>
     </div>
-  </section>
+    <div class="col-md-4">
+      <i class="bi bi-people text-success" style="font-size: 3rem;"></i>
+      <h5 class="mt-3">Community Focused</h5>
+      <p>Our solutions are designed to benefit both businesses and households.</p>
+    </div>
+    <div class="col-md-4">
+      <i class="bi bi-shield-check text-success" style="font-size: 3rem;"></i>
+      <h5 class="mt-3">Safe & Compliant</h5>
+      <p>We follow strict safety and compliance standards for waste handling.</p>
+    </div>
+  </div>
+</section>
 
   <!-- Testimonials Section -->
-  <section class="bg-light py-5">
-    <div class="container">
-      <h3 class="text-center text-success mb-4">What Our Clients Say</h3>
-      <div class="row">
-        <div class="col-md-6">
-          <blockquote class="blockquote">
-            <p>"GreenWaste Solutions transformed our waste management process. Truly professional and eco-conscious!"</p>
-            <footer class="blockquote-footer">Business Owner</footer>
+<section class="bg-light py-5">
+  <div class="container">
+    <h3 class="text-center text-success mb-4">What Our Clients Say</h3>
+    <div class="row g-4">
+      <div class="col-md-6">
+        <div class="p-4 bg-white shadow-sm rounded">
+          <blockquote class="blockquote mb-0">
+            <p class="fs-5">"GreenWaste Solutions transformed our waste management process. Truly professional and eco-conscious!"</p>
+            <footer class="blockquote-footer mt-2">Business Owner</footer>
           </blockquote>
         </div>
-        <div class="col-md-6">
-          <blockquote class="blockquote">
-            <p>"Their recycling program helped our community reduce waste significantly. Highly recommended."</p>
-            <footer class="blockquote-footer">Community Leader</footer>
+      </div>
+      <div class="col-md-6">
+        <div class="p-4 bg-white shadow-sm rounded">
+          <blockquote class="blockquote mb-0">
+            <p class="fs-5">"Their recycling program helped our community reduce waste significantly. Highly recommended."</p>
+            <footer class="blockquote-footer mt-2">Community Leader</footer>
           </blockquote>
         </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
   <!-- Call to Action -->
   <section class="text-center py-5 bg-success text-white">
@@ -160,9 +165,5 @@
   <footer>
     <p>&copy; 2026 GreenWaste Solutions. All rights reserved.</p>
   </footer>
-
-  <!-- Bootstrap JS + Icons -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
 </body>
 </html>
