@@ -156,7 +156,7 @@
       <p><strong>Address:</strong> 123 Eco Street, New Delhi, India</p>
       <p><strong>Phone:</strong> +91 98765 43210</p>
       <p><strong>Email:</strong> info@greenwaste.com</p>
-      <p><strong>Hours:</strong> Mon–Sat, 9:00 AM – 6:00 PM</p>
+      <p><strong>Hours:</strong> Mon to Sat, 9:00 AM to 6:00 PM</p>
     </div>
   </div>
 

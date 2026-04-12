@@ -129,7 +129,7 @@
   <section class="intro">
     <h2>Turning Waste into Opportunity</h2>
     <p>
-      At GreenWaste Solutions, we’re committed to building a cleaner, greener future through sustainable waste management. 
+      At GreenWaste Solutions, we are committed to building a cleaner, greener future through sustainable waste management. 
       We help communities and businesses reduce their environmental footprint by transforming waste into valuable resources.
     </p>
   </section>
