@@ -110,7 +110,7 @@
     <h2>Why Choose Us?</h2>
     <p>
       With a dedicated team, modern equipment, and a passion for sustainability, 
-      we go beyond traditional waste management. We don’t just collect waste — 
+      we go beyond traditional waste management. We do not just collect waste 
       we create solutions that benefit people, businesses, and the planet.
     </p>
   </div>
