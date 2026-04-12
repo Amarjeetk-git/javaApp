@@ -36,6 +36,13 @@
       padding: 15px 0;
       margin-top: 30px;
     }
+    
+    .blockquote-footer {
+    color: #000 !important;   /* force black text */
+    font-weight: bold;        /* make it bold */
+    font-style: normal;       /* remove italic */
+  }
+  
   </style>
 </head>
 <body>
@@ -111,11 +118,6 @@
 <section class="container my-5">
   <h3 class="text-center text-success mb-4">Why Choose Us</h3>
   <div class="row text-center">
-    <div class="col-md-4">
-      <i class="bi bi-leaf text-success" style="font-size: 3rem;"></i>
-      <h5 class="mt-3">Eco-Friendly</h5>
-      <p>We prioritize sustainable practices to protect the environment.</p>
-    </div>
     <div class="col-md-4">
       <i class="bi bi-people text-success" style="font-size: 3rem;"></i>
       <h5 class="mt-3">Community Focused</h5>
